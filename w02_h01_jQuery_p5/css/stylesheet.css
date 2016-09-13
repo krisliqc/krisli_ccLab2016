@@ -6,12 +6,18 @@ body{
 article{
 	display: inline-block;
 	height: 120px;
-	width: 30%;
+	width: 300px;
 }
 
 section{
 	display: inline-block;
 	float: right;
+}
+
+
+h1,h2,p{
+
+	font-size: 24px;
 }
 
 h1{
@@ -21,14 +27,23 @@ h1{
 
 div{
 	display: inline-block;
-	margin-left: 100px;
+	margin-left: 20px;
 }
 
 div#colorOn{
 	display: block;
 	float: right;
 	margin: 20px;
-	width: 200px;
+	width: 150px;
 	height: 80px;
 	background-color: #fff;
+}
+
+p {
+	display: inline-block;
+	margin: 10px;
+	margin-top: 69px;
+	height: 20px;
+	font-weight: bold;
+
 }
