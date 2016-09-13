@@ -1,0 +1,11 @@
+w02_h01
+
+This is a javascript exercise incorporating the use of jQuery and p5.js libraries.
+
+The page is titled: Pantone Picker.
+It presents an array of colors, created with 2 for loops.
+A color picker shows the current color that the mouse is at.
+
+When clicked, a div on the top-right corner of the page is suppose to reflect the selected color.
+
+Entering a number in the "brightness" prompt will change the brightness level of the whole color grid.
