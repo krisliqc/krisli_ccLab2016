@@ -1,0 +1,176 @@
+
+body {
+	background-color: #000;
+	/*transition: background-color 2s;*/
+	animation-name: colorChange;
+	animation-duration: 12s;
+	letter-spacing: 1px;
+	/*255, 140, 0*/
+	/*0, 191,255*/
+}
+
+/*@keyframes colorChange {
+	0% {background-color: color1;}
+	20% {background-color: color2;}
+	40% {background-color: color3;}
+	60% {background-color: color4;}
+	80% {background-color: color5;}
+	100% {background-color: color6;}
+}*/
+
+
+.text {
+	width: 260px;
+	height: 85px;
+	margin-top: -84px;
+	float:right;
+}
+
+.weather {
+	width: 145px;
+	height: 80px;
+	float: right;
+	font-size: 25px;
+	color: #e2e2e2;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	/*border: 2px solid #e2e2e2;*/
+
+}
+
+
+.currentLocation{
+	text-align: center;
+	margin: 0 25%;
+	margin-top: 300px;
+	width: 50%;
+	padding: 5px;
+	float: left;
+	/*background-color: white;*/
+	
+}
+
+.currentCity{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #363636;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.currentCity:focus{
+	outline: none;
+}
+
+.currentState{
+    width: 320px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #363636;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.currentState:focus{
+	outline: none;
+}
+
+#submit{
+	    height: 50px;
+    width: 160px;
+    padding: 10px;
+    margin: 50px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #363636;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: block;
+	
+}
+
+#submit:focus{
+	outline: none;
+}
+
+
+#one {
+	position: absolute;
+    bottom: 0;
+    left: 300px;
+    margin: 0 auto;
+    width: 0px;
+    height: 100px;
+    transition: height 2s;
+	transition: width 2s;
+
+}
+
+
+/*for the gradient*/
+#one { 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b7789+0,fbfcbf+20,fbfcbf+44,f9ad31+68,54427a+100 */
+background: #1b7789; /* Old browsers */
+background: -moz-linear-gradient(left, #1b7789 0%, #fbfcbf 20%, #fbfcbf 44%, #f9ad31 68%, #54427a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #1b7789 0%,#fbfcbf 20%,#fbfcbf 44%,#f9ad31 68%,#54427a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #1b7789 0%,#fbfcbf 20%,#fbfcbf 44%,#f9ad31 68%,#54427a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+#moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: beige;
+    opacity: 1;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+#moonlight{
+	color: #363636;
+    position: relative;
+    top: -525px;
+    left: 10px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 102px;
+}
+
+/*gradient*/
+#moon {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,efdf73+100 */
+background: #fefcea; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #fefcea 0%, #efdf73 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, #fefcea 0%,#efdf73 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, #fefcea 0%,#efdf73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+div#time p {
+    position: relative;
+    bottom: -10px;
+    color: burlywood;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 6%;
+    /* padding: 0 5px; */
+    display: inline-block;
+
+}
