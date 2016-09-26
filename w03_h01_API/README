@@ -1,0 +1,9 @@
+This website uses the weather API to visually display the length of a day.
+
+I used the astronomy section of this API, I extrated the time of sunrise, sunset and the moon luminosity from the API response. (js line 49-51)
+
+Once the city location is entered, a bar extends at the bottom of the screen, showing the span of a day over 0h-24h.
+I used a color gradient to represent different periods in the day.
+The brightness of the circle varies based on the luminosity data of the moon.
+
+(To see a greater change in the length of the day in different cities, choose cities with greater latitude differences.)
