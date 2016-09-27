@@ -5,3 +5,5 @@ He created a system with 8 LEDs to mimic a 8bit binary counter which counts up t
 I added a function (the else statement) that at the count of 8 (presses = 8), the count resets and all lights should come on, flash twice and go out.
 The response is shown in the .mov, but it does not last as long as I expected.
 I wrote my notes after //// to differentiate from his original notes.
+
+https://youtu.be/-fwPoM_3Pmg
