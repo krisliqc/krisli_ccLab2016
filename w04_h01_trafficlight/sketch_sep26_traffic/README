@@ -1,0 +1,9 @@
+This is a script that mimics the way traffic lights work.
+
+The circuit includes 
+3 LED lights: r(red), y(yellow) and g(green).
+2 buttons: buttonR(red light on) and buttonG(green light on).
+
+When buttonR is pressed, the yellow light flashes twice and the red light comes on(while button is held).
+
+When buttonG is pressed, the green light comes on immediately and the other two turn off.
