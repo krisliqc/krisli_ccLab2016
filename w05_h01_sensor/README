@@ -1,0 +1,9 @@
+This is the script for week 5 using a Ultrasonic HC SR04 sensor.
+
+There are 6 LEDs, when an object is far away nothing lights up, 
+when the object gets closer they each light up one by one.
+The green lights are the furthest, if the red lights are on you've come too close.
+
+I referenced J. Rodrigo Tech to get the ultrasonic sensor data.
+
+https://github.com/JRodrigoTech/Ultrasonic-HC-SR04
